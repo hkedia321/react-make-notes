@@ -77,7 +77,10 @@
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script>
     window.onload = function(){
-   setInterval(function(){$(".anote").draggable()},100);
+   setInterval(function(){
+     $(".anote").draggable();
+     $(".anote").resizable();
+   },100);
   }
     </script>
   </body>
