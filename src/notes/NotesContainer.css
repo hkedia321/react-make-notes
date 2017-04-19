@@ -1,0 +1,46 @@
+body{
+  background-color:#e2bc4a;
+  padding: 2rem;
+}
+html{
+overflow-x: hidden;
+}
+.main-container{
+  padding: 2rem;
+  position: relative;
+}
+.anote{
+  background-color: yellow;
+  width: 180px;
+  height: 200px;
+  padding: 1rem;
+  position: absolute;
+  display: inline-block;
+  margin: 1rem;
+}
+.notes-add{
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+.note-buttons{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  text-align: center;
+}
+.add-btn{
+  padding: 1rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.add-btn i{
+  font-size: 4rem;
+  color: #fff;
+}
+.note-buttons button{
+  width:49.5%;
+}
