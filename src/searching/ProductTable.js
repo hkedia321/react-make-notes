@@ -19,7 +19,7 @@ class ProductTable extends Component{
       lastCategory=product.category;
     });
     return(
-      <table>
+      <table className="bordered">
         <thead>
           <tr>
             <th>Name</th>
